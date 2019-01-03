@@ -397,9 +397,16 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"51.75.70.32", "50.17.36.227", "seed1.quark2.xyz", "seed2.quark2.xyz", ""};
+static const string mainnet_seeds[] = {"51.75.70.32", 
+                                       "50.17.36.227", 
+                                       "149.56.96.146", 
+                                       "seed1.quark2.xyz", 
+                                       "seed2.quark2.xyz", 
+                                       ""};
 static const string testnet_seeds[] = {"18.234.210.235",
-                                       "testseed1.quark2.xyz",
+                                       "18.215.159.212",
+                                       "34.229.77.179",
+                                       "52.91.40.149",
                                        ""};
 static const string *seeds = mainnet_seeds;
 
